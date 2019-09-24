@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main(void)
+{
+    char a[1000];
+    cin>>a;
+    if(a[0] >96 && a[0]<124){
+        a[0]=a[0]-32;
+    }
+    cout<<a<<endl;
+ 
+}
